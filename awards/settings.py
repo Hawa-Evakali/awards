@@ -18,7 +18,7 @@ from decouple import config,Csv
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+# BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -31,8 +31,8 @@ SECRET_KEY = 'django-insecure-2+q0)$id@!g445p8&dj4b#9@n(7*y7qyy*+o_m63qm7)*-bnb+
 
 
 MODE=config("MODE", default="dev")
-SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', True, cast=bool)
+# SECRET_KEY = config('SECRET_KEY')
+# DEBUG = config('DEBUG', True, cast=bool)
 # development
 if config('MODE')=="dev":
    DATABASES = {
@@ -56,8 +56,8 @@ else:
 
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
-
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+# 
+# ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -73,7 +73,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'projects',
     'bootstrap5',
     'rest_framework',
