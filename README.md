@@ -13,5 +13,5 @@ It's a web application that allows register and signin to the website. In additi
 ## Snapshots
 * Projects display
 * Registration display
-
+* Login display
 
