@@ -21,7 +21,30 @@ It's a web application that allows register and signin to the website. In additi
 * Open terminal and navigate to the directory of the project you just cloned to your computer
 * Run the following command to start the server using virtual environment
 
-'''
-python3.8 -m venv  virtual
 
-'''
+```
+python3.8 -m venv  virtual
+```
+- To activate the virtual environment
+
+```
+source virtual/bin/activate
+```
+
+```
+pip install -r requirements.txt
+```
+
+```
+pip install bootstrap
+```
+- Edit the .env file and replace the values
+with your own Cloudinary credentials and 
+database credentials
+
+- To run the server
+
+```
+python manage.py runserver
+
+```
