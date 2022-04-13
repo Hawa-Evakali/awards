@@ -1,0 +1,25 @@
+.index {
+    background-color: rgb(10, 173, 62);
+}
+
+.single {
+    background-color: rgb(10, 173, 62);
+    ;
+    height: 600px;
+}
+
+.single1 {
+    background-color: rgb(10, 173, 62);
+    ;
+}
+
+.delete {
+    background-color: rgb(10, 173, 62);
+    ;
+    height: 620px;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
