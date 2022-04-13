@@ -48,3 +48,17 @@ database credentials
 python manage.py runserver
 
 ```
+
+## Technologies Used
+* HTML
+* CSS
+* Bootstrap
+* Python
+* Django
+* PostgreSQL
+
+Open the browser and navigate to https://yasawards.herokuapp.com/home/ to see the application in action
+
+To make a contribution to the code used or any suggestions you can click on the contact link and email me your suggestions.
+
+Email: ailabeyqute@gmail.com
