@@ -20,4 +20,6 @@ It's a web application that allows register and signin to the website. In additi
 * Clone to your computer
 * Open terminal and navigate to the directory of the project you just cloned to your computer
 * Run the following command to start the server using virtual environment
-
+'''
+python3.8 -m venv  virtual
+'''
