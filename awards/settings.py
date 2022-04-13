@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-2+q0)$id@!g445p8&dj4b#9@n(7*y7qyy*+o_m63qm7)*-bnb+
 
 MODE=config("MODE", default="dev")
 SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = config('DEBUG', True, cast=bool)
 # development
 if config('MODE')=="dev":
    DATABASES = {
