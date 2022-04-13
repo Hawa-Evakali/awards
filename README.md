@@ -12,10 +12,16 @@ It's a web application that allows register and signin to the website. In additi
 
 ## Snapshots
 * Projects display
-* Registration display
-* Login display
+![Screenshot from 2022-04-13 15-59-15](https://user-images.githubusercontent.com/85121438/163194528-2a3dcce7-423f-4369-b9cc-91a74d326896.png)
 
-## Setup Instalation
+* Registration display
+![Screenshot from 2022-04-13 16-42-50](https://user-images.githubusercontent.com/85121438/163194806-9a8256a6-e796-4421-8f29-91e161d8033b.png)
+
+* Login display
+![Screenshot from 2022-04-13 16-42-55](https://user-images.githubusercontent.com/85121438/163194908-ef471632-655f-4250-a8f0-1b378624e529.png)
+
+## Setup
+ Instalation
 * Copy the github repository url
 * Clone to your computer
 * Open terminal and navigate to the directory of the project you just cloned to your computer
