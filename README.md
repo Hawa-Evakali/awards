@@ -16,4 +16,6 @@ It's a web application that allows register and signin to the website. In additi
 * Login display
 
 ## Setup Instalation
+* Copy the github repository url
+* Clone to your computer
 
