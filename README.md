@@ -9,3 +9,5 @@ It's a web application that allows register and signin to the website. In additi
 * A user can view posted projects and their details.
 * A user can post their projects.
 * a user can search for projects.
+
+## Snapshots
