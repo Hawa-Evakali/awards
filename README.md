@@ -11,4 +11,5 @@ It's a web application that allows register and signin to the website. In additi
 * a user can search for projects.
 
 ## Snapshots
+* Projects display
 
